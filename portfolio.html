@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- meta data  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- page title | window title -->
+    <title>WebStudio - home page - (module-1. home-work-2. writen by S. Zakusilo) </title>
+    <!-- fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- Normalizer first -->
+    <!-- <link rel="stylesheet" href="./css/modern-normalize.css"> -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <!-- my css rules -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <!-- section: top line |  logo; menu; e-mail; phone -->
+    <header class="header">
+        <div class="container">
+            <!-- navigation -->
+            <nav>
+                <!-- logo -->
+                <a class="header-logo" href="./index.html">
+                    <span class="header-logo-left">Web</span><span class="header-logo-rigth">Studio</span></a>
+                <!-- links -->
+                <ul>
+                    <li><a class="nav-link" href="./index.html">Студия</a></li>
+                    <li><a class="nav-link current-page-link" href="./portfolio.html">Портфолио</a></li>
+                    <li><a class="nav-link" href="./index.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <!-- e-mail & phone -->
+            <ul>
+                <li><a class="header-email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="header-phone" href="tel:380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <!-- заголовок (скрытый) -->
+                <h1 hidden>Портфолио</h1>
+                <!-- кнопки фильтра -->
+                <ul class="filter">
+                    <li class="filter-item"><button class="button-generic filter-button" type="button">Все</button></li>
+                    <li class="filter-item"><button class="button-generic filter-button"
+                            type="button">Приложения</button>
+                    </li>
+                    <li class="filter-item"><button class="button-generic filter-button"
+                            type="button">Веб-сайты</button>
+                    </li>
+                    <li class="filter-item"><button class="button-generic filter-button" type="button">Дизайн</button>
+                    </li>
+                    <li class="filter-item"><button class="button-generic filter-button"
+                            type="button">Маркетинг</button>
+                    </li>
+                </ul>
+                <!-- карточки -->
+                <ul class="project-list">
+                    <li class="project-card">
+                        <a class="project-card-link" href="./portfolio.html">
+                            <img src="./images/portfolio/project-cards/prj-01-tecnokryak.jpg" alt="изображение проекта"
+                                width="370" height="294">
+                            <div class="project-card-footer">
+                                <h2 class="project-card-title">Технокряк</h2>
+                                <p class="project-card-text">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project-card">
+                        <a class="project-card-link" href="./portfolio.html">
+                            <img src="./images/portfolio/project-cards/prj-02-new-orlean-vs-golden-star.jpg"
+                                alt="изображение проекта" width="370" height="294">
+                            <div class="project-card-footer">
+                                <h2 class="project-card-title">Постер <span lang="en">New Orlean vs Golden Star</span>
+                                </h2>
+                                <p class="project-card-text">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project-card">
+                        <a class="project-card-link" href="./portfolio.html">
+                            <img src="./images/portfolio/project-cards/prj-03-seafood.jpg" alt="изображение проекта"
+                                width="370" height="294">
+                            <div class="project-card-footer">
+                                <h2 class="project-card-title">Ресторан <span lang="en">Seafood</span></h2>
+                                <p class="project-card-text">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project-card">
+                        <a class="project-card-link" href="./portfolio.html">
+                            <img src="./images/portfolio/project-cards/prj-04-prime.jpg" alt="изображение проекта"
+                                width="370" height="294">
+                            <div class="project-card-footer">
+                                <h2 class="project-card-title">Проект <span lang="en">Prime</span></h2>
+                                <p class="project-card-text">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project-card">
+                        <a class="project-card-link" href="./portfolio.html">
+                            <img src="./images/portfolio/project-cards/prj-05-boxes.jpg" alt="изображение проекта"
+                                width="370" height="294">
+                            <div class="project-card-footer">
+                                <h2 class="project-card-title">Проект <span lang="en">Boxes</span></h2>
+                                <p class="project-card-text">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project-card">
+                        <a class="project-card-link" href="./portfolio.html">
+                            <img src="./images/portfolio/project-cards/prj-06-inspiration-has-no-borders.jpg"
+                                alt="изображение проекта" width="370" height="294">
+                            <div class="project-card-footer">
+                                <h2 class="project-card-title"><span lang="en">Inspiration has no Borders</span></h2>
+                                <p class="project-card-text">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project-card">
+                        <a class="project-card-link" href="./portfolio.html">
+                            <img src="./images/portfolio/project-cards/prj-07-limited-edition.jpg"
+                                alt="изображение проекта" width="370" height="294">
+                            <div class="project-card-footer">
+                                <h2 class="project-card-title">Издание <span lang="en">Limited Edition</span></h2>
+                                <p class="project-card-text">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project-card">
+                        <a class="project-card-link" href="./portfolio.html">
+                            <img src="./images/portfolio/project-cards/prj-08-lab.jpg" alt="изображение проекта"
+                                width="370" height="294">
+                            <div class="project-card-footer">
+                                <h2 class="project-card-title">Проект <span lang="en">LAB</span></h2>
+                                <p class="project-card-text">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project-card">
+                        <a class="project-card-link" href="./portfolio.html">
+                            <img src="./images/portfolio/project-cards/prj-09-growing-business.jpg"
+                                alt="изображение проекта" width="370" height="294">
+                            <div class="project-card-footer">
+                                <h2 class="project-card-title"><span lang="en">Growing Business</span></h2>
+                                <p class="project-card-text">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- section: footer -->
+    <footer class="footer">
+        <div class="container">
+            <!-- logo-footer -->
+            <a class="footer-logo" href="./index.html">
+                <span class="footer-logo-left">Web</span><span class="footer-logo-rigth">Studio</span>
+            </a>
+            <address>
+                <ul>
+                    <li class="footer-item">
+                        <a class="footer-link-street" href="https://goo.gl/maps/xGRTJqYPvytyFUrDA" target="_blank"
+                            rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="mailto:info@example.com">info@example.com</a>
+                    </li>
+                    <li class="footer-item">
+                        <a class="footer-link" href="tel:380991111111">+38 099 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+    </footer>
+
+</body>
+
+</html>
